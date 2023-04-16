@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B36BB629EC2A6900CC1BA6 /* DepthScanner3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */; };
+		84B36BB829EC2A6900CC1BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BB729EC2A6900CC1BA6 /* ContentView.swift */; };
+		84B36BBA29EC2A6900CC1BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */; };
+		84B36BBD29EC2A6900CC1BA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B36BBC29EC2A6900CC1BA6 /* Preview Assets.xcassets */; };
+		84B36BBF29EC2A6900CC1BA6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */; };
+		84B36BC229EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */; };
+		84B36BCC29EC2A6900CC1BA6 /* DepthScanner3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BCB29EC2A6900CC1BA6 /* DepthScanner3DTests.swift */; };
+		84B36BD629EC2A6900CC1BA6 /* DepthScanner3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BD529EC2A6900CC1BA6 /* DepthScanner3DUITests.swift */; };
+		84B36BD829EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B36BC829EC2A6900CC1BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B36BAA29EC2A6900CC1BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B36BB129EC2A6900CC1BA6;
+			remoteInfo = DepthScanner3D;
+		};
+		84B36BD229EC2A6900CC1BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B36BAA29EC2A6900CC1BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B36BB129EC2A6900CC1BA6;
+			remoteInfo = DepthScanner3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B36BB229EC2A6900CC1BA6 /* DepthScanner3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthScanner3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DApp.swift; sourceTree = "<group>"; };
+		84B36BB729EC2A6900CC1BA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B36BBC29EC2A6900CC1BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepthScanner3D.xcdatamodel; sourceTree = "<group>"; };
+		84B36BC729EC2A6900CC1BA6 /* DepthScanner3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthScanner3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B36BCB29EC2A6900CC1BA6 /* DepthScanner3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DTests.swift; sourceTree = "<group>"; };
+		84B36BD129EC2A6900CC1BA6 /* DepthScanner3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthScanner3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B36BD529EC2A6900CC1BA6 /* DepthScanner3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DUITests.swift; sourceTree = "<group>"; };
+		84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B36BAF29EC2A6900CC1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BC429EC2A6900CC1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BCE29EC2A6900CC1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B36BA929EC2A6900CC1BA6 = {
+			isa = PBXGroup;
+			children = (
+				84B36BB429EC2A6900CC1BA6 /* DepthScanner3D */,
+				84B36BCA29EC2A6900CC1BA6 /* DepthScanner3DTests */,
+				84B36BD429EC2A6900CC1BA6 /* DepthScanner3DUITests */,
+				84B36BB329EC2A6900CC1BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B36BB329EC2A6900CC1BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BB229EC2A6900CC1BA6 /* DepthScanner3D.app */,
+				84B36BC729EC2A6900CC1BA6 /* DepthScanner3DTests.xctest */,
+				84B36BD129EC2A6900CC1BA6 /* DepthScanner3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B36BB429EC2A6900CC1BA6 /* DepthScanner3D */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */,
+				84B36BB729EC2A6900CC1BA6 /* ContentView.swift */,
+				84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */,
+				84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */,
+				84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */,
+				84B36BBB29EC2A6900CC1BA6 /* Preview Content */,
+			);
+			path = DepthScanner3D;
+			sourceTree = "<group>";
+		};
+		84B36BBB29EC2A6900CC1BA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BBC29EC2A6900CC1BA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B36BCA29EC2A6900CC1BA6 /* DepthScanner3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BCB29EC2A6900CC1BA6 /* DepthScanner3DTests.swift */,
+			);
+			path = DepthScanner3DTests;
+			sourceTree = "<group>";
+		};
+		84B36BD429EC2A6900CC1BA6 /* DepthScanner3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BD529EC2A6900CC1BA6 /* DepthScanner3DUITests.swift */,
+				84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */,
+			);
+			path = DepthScanner3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B36BB129EC2A6900CC1BA6 /* DepthScanner3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B36BDB29EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3D" */;
+			buildPhases = (
+				84B36BAE29EC2A6900CC1BA6 /* Sources */,
+				84B36BAF29EC2A6900CC1BA6 /* Frameworks */,
+				84B36BB029EC2A6900CC1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepthScanner3D;
+			productName = DepthScanner3D;
+			productReference = 84B36BB229EC2A6900CC1BA6 /* DepthScanner3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B36BC629EC2A6900CC1BA6 /* DepthScanner3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B36BDE29EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3DTests" */;
+			buildPhases = (
+				84B36BC329EC2A6900CC1BA6 /* Sources */,
+				84B36BC429EC2A6900CC1BA6 /* Frameworks */,
+				84B36BC529EC2A6900CC1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B36BC929EC2A6900CC1BA6 /* PBXTargetDependency */,
+			);
+			name = DepthScanner3DTests;
+			productName = DepthScanner3DTests;
+			productReference = 84B36BC729EC2A6900CC1BA6 /* DepthScanner3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B36BD029EC2A6900CC1BA6 /* DepthScanner3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B36BE129EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3DUITests" */;
+			buildPhases = (
+				84B36BCD29EC2A6900CC1BA6 /* Sources */,
+				84B36BCE29EC2A6900CC1BA6 /* Frameworks */,
+				84B36BCF29EC2A6900CC1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B36BD329EC2A6900CC1BA6 /* PBXTargetDependency */,
+			);
+			name = DepthScanner3DUITests;
+			productName = DepthScanner3DUITests;
+			productReference = 84B36BD129EC2A6900CC1BA6 /* DepthScanner3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B36BAA29EC2A6900CC1BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					84B36BB129EC2A6900CC1BA6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					84B36BC629EC2A6900CC1BA6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 84B36BB129EC2A6900CC1BA6;
+					};
+					84B36BD029EC2A6900CC1BA6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 84B36BB129EC2A6900CC1BA6;
+					};
+				};
+			};
+			buildConfigurationList = 84B36BAD29EC2A6900CC1BA6 /* Build configuration list for PBXProject "DepthScanner3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B36BA929EC2A6900CC1BA6;
+			productRefGroup = 84B36BB329EC2A6900CC1BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B36BB129EC2A6900CC1BA6 /* DepthScanner3D */,
+				84B36BC629EC2A6900CC1BA6 /* DepthScanner3DTests */,
+				84B36BD029EC2A6900CC1BA6 /* DepthScanner3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B36BB029EC2A6900CC1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B36BBD29EC2A6900CC1BA6 /* Preview Assets.xcassets in Resources */,
+				84B36BBA29EC2A6900CC1BA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BC529EC2A6900CC1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BCF29EC2A6900CC1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B36BAE29EC2A6900CC1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B36BBF29EC2A6900CC1BA6 /* Persistence.swift in Sources */,
+				84B36BC229EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld in Sources */,
+				84B36BB829EC2A6900CC1BA6 /* ContentView.swift in Sources */,
+				84B36BB629EC2A6900CC1BA6 /* DepthScanner3DApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BC329EC2A6900CC1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B36BCC29EC2A6900CC1BA6 /* DepthScanner3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B36BCD29EC2A6900CC1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B36BD829EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift in Sources */,
+				84B36BD629EC2A6900CC1BA6 /* DepthScanner3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B36BC929EC2A6900CC1BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B36BB129EC2A6900CC1BA6 /* DepthScanner3D */;
+			targetProxy = 84B36BC829EC2A6900CC1BA6 /* PBXContainerItemProxy */;
+		};
+		84B36BD329EC2A6900CC1BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B36BB129EC2A6900CC1BA6 /* DepthScanner3D */;
+			targetProxy = 84B36BD229EC2A6900CC1BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B36BD929EC2A6900CC1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B36BDA29EC2A6900CC1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B36BDC29EC2A6900CC1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepthScanner3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B36BDD29EC2A6900CC1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DepthScanner3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B36BDF29EC2A6900CC1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthScanner3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DepthScanner3D";
+			};
+			name = Debug;
+		};
+		84B36BE029EC2A6900CC1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepthScanner3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DepthScanner3D";
+			};
+			name = Release;
+		};
+		84B36BE229EC2A6900CC1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthScanner3D;
+			};
+			name = Debug;
+		};
+		84B36BE329EC2A6900CC1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepthScanner3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B36BAD29EC2A6900CC1BA6 /* Build configuration list for PBXProject "DepthScanner3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B36BD929EC2A6900CC1BA6 /* Debug */,
+				84B36BDA29EC2A6900CC1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B36BDB29EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B36BDC29EC2A6900CC1BA6 /* Debug */,
+				84B36BDD29EC2A6900CC1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B36BDE29EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B36BDF29EC2A6900CC1BA6 /* Debug */,
+				84B36BE029EC2A6900CC1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B36BE129EC2A6900CC1BA6 /* Build configuration list for PBXNativeTarget "DepthScanner3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B36BE229EC2A6900CC1BA6 /* Debug */,
+				84B36BE329EC2A6900CC1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */,
+			);
+			currentVersion = 84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */;
+			path = DepthScanner3D.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84B36BAA29EC2A6900CC1BA6 /* Project object */;
+}
