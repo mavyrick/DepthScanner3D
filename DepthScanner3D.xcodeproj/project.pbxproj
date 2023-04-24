@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845DD18429F6A22E005F2672 /* DepthMapGeometryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DD18329F6A22E005F2672 /* DepthMapGeometryGenerator.swift */; };
+		845DD18629F6A244005F2672 /* DepthMapGeometryGeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DD18529F6A244005F2672 /* DepthMapGeometryGeneratorProtocol.swift */; };
 		84B36BB629EC2A6900CC1BA6 /* DepthScanner3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */; };
 		84B36BB829EC2A6900CC1BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BB729EC2A6900CC1BA6 /* ContentView.swift */; };
 		84B36BBA29EC2A6900CC1BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */; };
 		84B36BBD29EC2A6900CC1BA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B36BBC29EC2A6900CC1BA6 /* Preview Assets.xcassets */; };
-		84B36BBF29EC2A6900CC1BA6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */; };
-		84B36BC229EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */; };
 		84B36BCC29EC2A6900CC1BA6 /* DepthScanner3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BCB29EC2A6900CC1BA6 /* DepthScanner3DTests.swift */; };
 		84B36BD629EC2A6900CC1BA6 /* DepthScanner3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BD529EC2A6900CC1BA6 /* DepthScanner3DUITests.swift */; };
 		84B36BD829EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */; };
+		84B36BE529EC2A8300CC1BA6 /* DepthImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BE429EC2A8300CC1BA6 /* DepthImagePreviewView.swift */; };
+		84B36BE729EC2ACF00CC1BA6 /* DepthImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BE629EC2ACF00CC1BA6 /* DepthImagePreviewViewController.swift */; };
+		84B36BEA29EC2F9C00CC1BA6 /* DepthCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BE929EC2F9C00CC1BA6 /* DepthCameraView.swift */; };
+		84B36BEE29EC388D00CC1BA6 /* MeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BED29EC388D00CC1BA6 /* MeshView.swift */; };
+		84B36BF029EC3C9500CC1BA6 /* SceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BEF29EC3C9500CC1BA6 /* SceneViewModel.swift */; };
+		84B36BF229EC3D1500CC1BA6 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BF129EC3D1500CC1BA6 /* SceneView.swift */; };
+		84B36BF429EC3D3E00CC1BA6 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BF329EC3D3E00CC1BA6 /* SceneViewController.swift */; };
+		84B36BFA29EC877A00CC1BA6 /* DepthCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B36BF929EC877A00CC1BA6 /* DepthCameraViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845DD18329F6A22E005F2672 /* DepthMapGeometryGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapGeometryGenerator.swift; sourceTree = "<group>"; };
+		845DD18529F6A244005F2672 /* DepthMapGeometryGeneratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapGeometryGeneratorProtocol.swift; sourceTree = "<group>"; };
 		84B36BB229EC2A6900CC1BA6 /* DepthScanner3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthScanner3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DApp.swift; sourceTree = "<group>"; };
 		84B36BB729EC2A6900CC1BA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B36BBC29EC2A6900CC1BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepthScanner3D.xcdatamodel; sourceTree = "<group>"; };
 		84B36BC729EC2A6900CC1BA6 /* DepthScanner3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthScanner3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B36BCB29EC2A6900CC1BA6 /* DepthScanner3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DTests.swift; sourceTree = "<group>"; };
 		84B36BD129EC2A6900CC1BA6 /* DepthScanner3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepthScanner3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B36BD529EC2A6900CC1BA6 /* DepthScanner3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DUITests.swift; sourceTree = "<group>"; };
 		84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B36BE429EC2A8300CC1BA6 /* DepthImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthImagePreviewView.swift; sourceTree = "<group>"; };
+		84B36BE629EC2ACF00CC1BA6 /* DepthImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthImagePreviewViewController.swift; sourceTree = "<group>"; };
+		84B36BE829EC2BCD00CC1BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84B36BE929EC2F9C00CC1BA6 /* DepthCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthCameraView.swift; sourceTree = "<group>"; };
+		84B36BED29EC388D00CC1BA6 /* MeshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshView.swift; sourceTree = "<group>"; };
+		84B36BEF29EC3C9500CC1BA6 /* SceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewModel.swift; sourceTree = "<group>"; };
+		84B36BF129EC3D1500CC1BA6 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		84B36BF329EC3D3E00CC1BA6 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		84B36BF929EC877A00CC1BA6 /* DepthCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthCameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845DD18229F6A1F6005F2672 /* DepthMapGeometryGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				845DD18529F6A244005F2672 /* DepthMapGeometryGeneratorProtocol.swift */,
+				845DD18329F6A22E005F2672 /* DepthMapGeometryGenerator.swift */,
+			);
+			path = DepthMapGeometryGenerator;
+			sourceTree = "<group>";
+		};
 		84B36BA929EC2A6900CC1BA6 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +124,13 @@
 		84B36BB429EC2A6900CC1BA6 /* DepthScanner3D */ = {
 			isa = PBXGroup;
 			children = (
+				84B36BE829EC2BCD00CC1BA6 /* Info.plist */,
 				84B36BB529EC2A6900CC1BA6 /* DepthScanner3DApp.swift */,
 				84B36BB729EC2A6900CC1BA6 /* ContentView.swift */,
+				84B36BF529EC6AF300CC1BA6 /* DepthCamera */,
+				84B36BF629EC6B1A00CC1BA6 /* MeshScene */,
+				845DD18229F6A1F6005F2672 /* DepthMapGeometryGenerator */,
 				84B36BB929EC2A6900CC1BA6 /* Assets.xcassets */,
-				84B36BBE29EC2A6900CC1BA6 /* Persistence.swift */,
-				84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */,
 				84B36BBB29EC2A6900CC1BA6 /* Preview Content */,
 			);
 			path = DepthScanner3D;
@@ -131,6 +159,28 @@
 				84B36BD729EC2A6900CC1BA6 /* DepthScanner3DUITestsLaunchTests.swift */,
 			);
 			path = DepthScanner3DUITests;
+			sourceTree = "<group>";
+		};
+		84B36BF529EC6AF300CC1BA6 /* DepthCamera */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BE929EC2F9C00CC1BA6 /* DepthCameraView.swift */,
+				84B36BF929EC877A00CC1BA6 /* DepthCameraViewModel.swift */,
+				84B36BE429EC2A8300CC1BA6 /* DepthImagePreviewView.swift */,
+				84B36BE629EC2ACF00CC1BA6 /* DepthImagePreviewViewController.swift */,
+			);
+			path = DepthCamera;
+			sourceTree = "<group>";
+		};
+		84B36BF629EC6B1A00CC1BA6 /* MeshScene */ = {
+			isa = PBXGroup;
+			children = (
+				84B36BED29EC388D00CC1BA6 /* MeshView.swift */,
+				84B36BF129EC3D1500CC1BA6 /* SceneView.swift */,
+				84B36BF329EC3D3E00CC1BA6 /* SceneViewController.swift */,
+				84B36BEF29EC3C9500CC1BA6 /* SceneViewModel.swift */,
+			);
+			path = MeshScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B36BBF29EC2A6900CC1BA6 /* Persistence.swift in Sources */,
-				84B36BC229EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld in Sources */,
+				84B36BE529EC2A8300CC1BA6 /* DepthImagePreviewView.swift in Sources */,
+				84B36BEA29EC2F9C00CC1BA6 /* DepthCameraView.swift in Sources */,
+				845DD18429F6A22E005F2672 /* DepthMapGeometryGenerator.swift in Sources */,
+				84B36BE729EC2ACF00CC1BA6 /* DepthImagePreviewViewController.swift in Sources */,
+				84B36BF229EC3D1500CC1BA6 /* SceneView.swift in Sources */,
+				84B36BEE29EC388D00CC1BA6 /* MeshView.swift in Sources */,
 				84B36BB829EC2A6900CC1BA6 /* ContentView.swift in Sources */,
+				84B36BF429EC3D3E00CC1BA6 /* SceneViewController.swift in Sources */,
+				845DD18629F6A244005F2672 /* DepthMapGeometryGeneratorProtocol.swift in Sources */,
 				84B36BB629EC2A6900CC1BA6 /* DepthScanner3DApp.swift in Sources */,
+				84B36BF029EC3C9500CC1BA6 /* SceneViewModel.swift in Sources */,
+				84B36BFA29EC877A00CC1BA6 /* DepthCameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,17 +480,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DepthScanner3D/Preview Content\"";
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepthScanner3D/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to use the camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +503,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,17 +515,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DepthScanner3D/Preview Content\"";
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DepthScanner3D/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to use the camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +538,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = joshsorokin.DepthScanner3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,19 +661,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84B36BC029EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */,
-			);
-			currentVersion = 84B36BC129EC2A6900CC1BA6 /* DepthScanner3D.xcdatamodel */;
-			path = DepthScanner3D.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84B36BAA29EC2A6900CC1BA6 /* Project object */;
 }
