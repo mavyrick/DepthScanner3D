@@ -4,8 +4,6 @@ DepthScanner3D is an excellent example of how an iPhone's LiDAR device can produ
 
 The project was inspired by heightmaps (https://en.wikipedia.org/wiki/Heightmap). In fact, if you plug a heightmap into this project's system, it will have the same effect as the depth images.
 
-The app was developed on an iPhone 12 Pro.
-
 The project will run on the following devices:
 
 - iPhone 12 Pro or later
